@@ -1,3 +1,11 @@
+header{
+    padding-left: 60px;
+    padding-top: 20;
+    padding-bottom: 20px;
+    border: 5px solid rgb(115, 231, 193);
+    background-color: aquamarine;
+}
+
 h1{
     font-size: 50px;
 }
@@ -6,21 +14,40 @@ h2{
     font-size: 25px;
 }
 
-body{
-
-}
-
 h3{
-    padding: 15px;
+    padding-left: 40px;
 }
 
 p{
     width: 800px;
-    position: absolute; left: 5px;
+    position: relative; left: 5px;
+    padding-left: 30px;
+    
 }
 
 aside{
     width: 200px;
-    position: absolute; right: 5px; top: 5px;
-    
+    position: absolute; right: 50px; top: 230px;
+    padding-right: 25px;
+    background-color: rgb(115, 255, 255);
+    border: 5px solid rgb(115, 241, 241)
+}
+
+html{
+    background-color: rgb(113, 214, 214);
+}
+
+#zen-summary{
+background-color: aqua;
+border: 5px solid rgb(0, 233, 233);
+}
+
+#zen-preamble{
+    background-color: aqua;
+    border: 5px solid rgb(0, 233, 233);
+}
+
+#zen-supporting{
+    background-color: aqua;
+    border: 5px solid rgb(0, 233, 233);
 }
